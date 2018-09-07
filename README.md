@@ -38,10 +38,10 @@ Want to learn how Git and GitHub works?
 
 ## Start Contributing
 * [Fork](https://guides.github.com/activities/forking/) this repository.
-* Create another branch (test-yourusername).
-* Add a CONTRIBUTING.md file that highlights your PROJECTidea and it's benefit(s) to UoPeopleSDS.
+* Create another [branch] (test-yourusername).
+* Add a CONTRIBUTING.md file that highlights your PROJECT idea and it's benefit(s) to UoPeopleSDS.
 * Build something cool no matter how simple (no idea is too small).
-* Make a Pull request to your branch to our main Test repository.
+* Make a Pull request to add your branch to our main Test repository.
 
 ## Final notes
 Want to improve this README? Create an [Issue](https://guides.github.com/features/issues/).
