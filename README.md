@@ -13,13 +13,16 @@ Get a quick understanding of the term "open source" and discover how to become a
 * [How To Contribute To Open Source](https://opensource.guide/how-to-contribute/)
 
 ### Learning Resources
-These websites are useful for improving your programming skills.
-* [Codecademy](https://www.codecademy.com/)
-* [edX - Massive Open Online Courses](https://edx.org/)
+These websites are useful for improving your programming skills. 
+* [Codecademy](https://www.codecademy.com/); Free, many languages and exercises.
+* [edX - Massive Open Online Courses](https://edx.org/); Often free, and usually offers an option to purchase a "verified" course completion certificate.
 * [Google Codelabs](https://codelabs.developers.google.com/)
-* [The Learn Programming Academy](https://learnprogramming.academy/)
+* [The Learn Programming Academy](https://learnprogramming.academy/); Paid, but very high quality instruction. Courses are also on Udemy, which often has really good sales (~9.99/course), and offers course completion certificates.
 * [The Net Ninja](https://www.thenetninja.co.uk/)
-* [Udacity](https://udacity.com/)
+* [Udacity](https://udacity.com/); Paid but has good career and networking resources. Usually high quality instructors, and offers "nano degrees."
+* [Khan Academy](https://www.khanacademy.org/computing); Totally free and awesome. Everything from a complete Javascript (beginner to advanced) courses, HTML/CSS, SQL, algorithms, and cryptography.
+* [Coursera](https://www.coursera.org/); Many high quality, free courses from top universities. Offers an option to purchase a course completion certificate. Some courses are transferable to masters programs. 
+* ...There are too many to list here, so please ask on Discord for more recommendations.
 
 ### Tools
 There are a lot of free tools for professional software development, some of them are:
@@ -30,6 +33,8 @@ There are a lot of free tools for professional software development, some of the
 * [IntelliJ IDEA](https://www.jetbrains.com/idea/); Highly efficient IDE (Community edition is free).
 * [Visual Studio Code](https://code.visualstudio.com/); Text Editor with large library of extensions.
 * [Eclipse IDE](https://www.eclipse.org/downloads/); Open Source IDE for professional software development.
+* [PyCharm IDE](https://www.jetbrains.com/pycharm/); There is a free community version. 
+* [VirtualBox](https://www.virtualbox.org/wiki/Downloads); Free and open source. Allows you to run multiple operating systems at once.
 
 # New to GitHub
 Want to learn how Git and GitHub works?
