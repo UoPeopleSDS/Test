@@ -2,7 +2,7 @@
 This is a test repository to play around with.
 
 ## Introduction
-The Test repository serves as an introductory playground for newcomers. Fork this repo, challenge your imagination, and come up with something uique as a contribution to the success of [UoPeople Student Developer Society](https://github.com/UoPeopleSDS).
+The Test repository serves as an introductory playground for newcomers. Fork this repo, challenge your imagination, and come up with something uique as a contribution to the success of the [UoPeople Student Developer Society](https://github.com/UoPeopleSDS).
 
 ## Getting Started
 Whether you are just getting started with contributing to open source projects, or programming in general, or you're a seasoned programmer and regular open source contributor, we recommend checking out any of these useful links to get started:
