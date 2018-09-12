@@ -38,7 +38,7 @@ There are a lot of free tools for professional software development, some of the
 
 # New to GitHub
 Want to learn how Git and GitHub works?
-* [Git Cheetsheet](https://services.github.com/on-demand/downloads/github-git-cheat-sheet.pdf) and [Git Handbook](https://guides.github.com/introduction/git-handbook/) both serve as a reference for learning and working with Git.
+* [Git Cheatsheet](https://services.github.com/on-demand/downloads/github-git-cheat-sheet.pdf) and [Git Handbook](https://guides.github.com/introduction/git-handbook/) both serve as a reference for learning and working with Git.
 * We also recommend taking a few courses from [GitHub Learning Lab](https://lab.github.com/) so you can become familiar with the [GitHub Workflow](https://guides.github.com/introduction/flow/).
 
 ## Start Contributing
