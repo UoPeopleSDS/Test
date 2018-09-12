@@ -1,0 +1,27 @@
+#include <stdio.h>//this is a way to call any library in C.
+ 
+//the main function is mandatory to any code in C be able to run
+int main(){
+  printf("Welcome to UoPeople SDS. This is the Test repo of C/C++.\n If you are interested in C/C++, I'll try to contribute with some codes in these languages.\n\n So feel free to add anything you want!\n");
+  printf("This first code was written to show some basic sintax of C.");
+  //printf is the function used to print a value in your screen. the "f" means formatted. So you can use it to print char "%c", int "%d", float and double "%f", char chain "%s" and long "%l" and \n to break the line.
+  //every code line must be ended with a ";"
+
+  for(int i = 0; i<5; i++){
+    printf("This is a that reppeated %d times\n", i);
+  }
+  int i = 0;
+  while(i<3){
+    printf("This is a while, as you can see it's not so different of for at first time\n");
+    i++;
+  }
+  float var;
+  printf("type a float\n");
+  scanf("%f",&var);
+  
+  printf("%f\n", var);
+
+  printf("To run this file, with your terminal, go to its directory, and type \"gcc welcome.c -o welcome\"");
+
+  return(0);
+}
