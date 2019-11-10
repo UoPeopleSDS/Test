@@ -1,4 +1,5 @@
 #include "game.h"
+#include <stdlib.h>
 
 
 
@@ -119,27 +120,50 @@ void printScreen(char **mprint, int c, int l){
   }
 }
 
+/*
+Returns true if x and y coordinates are within array
+*/
+int isValidEntry(int x, int y, int c, int l) {
+  if (x < l && y < c && x >= 0 && y >= 0) {
+    return 1;
+  }
+  printf("Please enter a valid x and y entry\n");
+  return 0;
+}
+
 void game(char **mgame, char **mprint,int c,int l){
   int x0, y0, x1, y1, turns = 0;
   char enter;
   do{
     printScreen(mprint, c, l);
     //card 1
-    scanf("%d",&x0);
-    scanf("%d",&y0);
+    do {
+      scanf("%d",&x0);
+      scanf("%d",&y0);
+      if (isValidEntry(x0,y0,c,l) == 1) { //check user input
+        break;
+      } 
+    } while (1);
     mprint[y0][x0] = mgame[y0][x0];
 
     printScreen(mprint, c, l);
 
     //card 2
-    scanf("%d",&x1);
-    scanf("%d",&y1);
-
+    do {
+      scanf("%d",&x1);
+      scanf("%d",&y1);
+      if (isValidEntry(x1,y1,c,l) == 1) { //check user input
+        break;
+      }
+    } while (1);
     mprint[y1][x1] = mgame[y1][x1];
 
     printScreen(mprint, c, l);
-    printf("Press any key + \"Enter\" to continue\n" );
-    scanf(" %c",&enter);
+    printf("Press \"Enter\" to continue\n" );
+    getchar(); //clear last new line character
+    while(getchar() != '\n'); //wait for enter key
+
+    
     if(mprint[y0][x0]!=mprint[y1][x1]){
       mprint[y0][x0] = '?';
       mprint[y1][x1] = '?';
